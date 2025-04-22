@@ -1,3 +1,7 @@
+# from reactivity.hmr.core import patch_meta_path
+# patch_meta_path("./src/server")
+# uncomment the above line will solve the issue
+
 # import src.server
 # uncomment the above line will cause issue
 # AttributeError: module 'src.server' has no attribute 'load'
