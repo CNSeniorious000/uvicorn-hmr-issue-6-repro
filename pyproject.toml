@@ -1,0 +1,9 @@
+[project]
+name = "repro"
+version = "0.1.0"
+requires-python = "~=3.13"
+dependencies = [
+    "fastapi==0.115.12",
+    "hmr==0.4.1.1",
+    "uvicorn-hmr==0.0.6.1",
+]
